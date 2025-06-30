@@ -1,19 +1,19 @@
 const achievementsData = [
   {
-    title: "HackVSIT 2.0 – Decentralized Document Vault",
-    date: "May 2023",
+    title: "M# National Hackathon – Social Impact Platform",
+    date: "Oct 2023",
     description:
-      "Built a decentralized document vault using Solidity, IPFS, and NFT standards for secure academic document verification.",
-    link: "https://devfolio.co/projects/document-vault",
-    badge: "1st Place",
+      "Built a full-stack platform to empower 10+ underrepresented communities with blogging, moderated chatrooms, and e-commerce tools.",
+    link: "https://davat-101-deployement.vercel.app/",
+    badge: "2nd Runner-Up",
   },
   {
-    title: "Smart India Hackathon (Internal Round)",
-    date: "Aug 2022",
+    title: "AppLab Hackathon - Startup Accelerator Portal",
+    date: "Mar 2024",
     description:
-      "Developed a citizen grievance reporting platform using MERN stack and Maps API. Shortlisted for national-level SIH round.",
-    link: "https://yourprojectlink.com",
-    badge: "2nd Place",
+      "Developed a collaborative portal to connect founders, mentors, and students under MAHE’s startup accelerator. Centralized event, startup, and milestone tracking.",
+    link: "https://accelerator-management.web.app/",
+    badge: "4th Place",
   },
 ];
 

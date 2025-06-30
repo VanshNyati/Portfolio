@@ -1,31 +1,38 @@
-// src/data/experience.js
 const experienceData = [
   {
     title: "SDE-1 Intern",
     company: "AppCrave Technovations",
-    duration: "Jun 2023 – Present",
+    duration: "Jan 2025 – Present",
     logo: "/logos/appcrave.png",
-    description: `Contributed to production bug fixes, built internal tools, and enhanced CMS-based portals using ReactJS, Node.js, and TailwindCSS. 
+    description: `Contributed to internal tools, fixed 60+ production issues including critical UI/security bugs, and built CMS-based job referral portals using PHP and Concrete CMS. 
 Led UI revamps for client dashboards and collaborated on scalable backend APIs. 
-Actively participated in team code reviews, Agile sprints, and feature planning meetings.`,
+Actively participated in Agile sprints, code reviews, and feature planning.`,
   },
   {
-    title: "Web Developer",
-    company: "Informatics Matrix",
-    duration: "Jun 2020 – Jul 2021",
-    logo: "/logos/informatics.png",
-    description: `Developed and maintained dynamic websites using Concrete CMS and PHP. 
-Enhanced legacy VB.NET systems and optimized SQL queries for better performance. 
-Collaborated with designers and QA teams to deliver client projects on time.`,
+    title: "Industrial Training Intern",
+    company: "Intel",
+    duration: "May 2023 – Jul 2023",
+    logo: "/logos/intel.png",
+    description: `Built and trained a CNN model with 92.5% accuracy for automated product tagging in e-commerce. 
+Applied machine learning to streamline inventory classification and reduce manual effort. 
+Focused on real-world deployment constraints and model interpretability.`,
   },
   {
-    title: "Intern",
-    company: "Informatics Matrix",
-    duration: "Jan 2020 – May 2020",
-    logo: "/logos/informatics.png",
-    description: `Built a content management platform (Efectly) using Lumen and Vue.js. 
-Designed RESTful API endpoints, handled token-based authentication, and created reusable UI components. 
-The platform helped streamline internal documentation workflows.`,
+    title: "Technical Head",
+    company: "E-Cell, MIT Manipal",
+    duration: "Feb 2022 – Aug 2024",
+    logo: "/logos/ecell.png",
+    description: `Led a team of 10+ developers to build platforms for the Manipal Entrepreneurship Summit (MES), generating 2.2K+ registrations and 7K+ impressions. 
+Architected full-stack solutions and coordinated end-to-end deployment. 
+Spearheaded the development of a startup service platform streamlining operations across 10+ verticals.`,
+  },
+  {
+    title: "Web Development Intern",
+    company: "Accelth",
+    duration: "Feb 2023 – May 2023",
+    logo: "/logos/accelth.png",
+    description: `Designed and implemented routing and UI architecture for MVPs of a Hospital Management System and an Air Traffic Control Simulator using ReactJS and Tailwind CSS. 
+Delivered responsive designs and worked closely with product teams to iterate quickly.`,
   },
 ];
 

@@ -32,7 +32,7 @@ const Hero = () => {
           transition={{ delay: 0.6, duration: 1 }}
           className="text-lg md:text-2xl mt-4 text-gray-600 dark:text-gray-300 font-medium"
         >
-          SDE-1 · MERN Stack Dev · Open Source Contributor
+          SDE-1 · Full Stack Developer · Built for 20K+ Users
         </motion.p>
 
         <motion.div

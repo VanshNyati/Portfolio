@@ -24,26 +24,30 @@ const About = () => {
 
           <div className="space-y-4 text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
             <p>
-              I’m a <strong>Full-Stack Developer</strong> with a passion for
-              building sleek, scalable apps that blend performance with purpose.
-              Currently an <strong>SDE-1 Intern at AppCrave</strong>, I’ve
-              contributed to internal tools, production bug fixes, and CMS-based
-              portals.
+              I’m a <strong>Full-Stack Developer</strong> who enjoys turning
+              ideas into clean, scalable products that actually solve problems.
+              Currently working as an{" "}
+              <strong>Software Development Intern at AppCrave</strong>, I’ve
+              contributed to internal tools, fixed critical production bugs, and
+              helped build CMS portals that improve real-world workflows.
             </p>
 
             <p>
-              My stack revolves around{" "}
+              My stack mostly revolves around{" "}
               <span className="text-blue-700 dark:text-blue-300 font-semibold">
-                ReactJS, Node.js, MongoDB, and TailwindCSS
+                ReactJS, Node.js, MongoDB, and etc
               </span>
-              . I’ve also built MVPs and led 10-member teams for university
-              events and startup accelerators.
+              . I've also built MVPs from scratch and led{" "}
+              <strong>10-member tech teams</strong> during entrepreneurship summit and
+              startup accelerator portal.
             </p>
 
             <p>
-              Outside of coding, I’m into <em>Studio Ghibli films</em>,{" "}
-              <em>hackathons</em>, <em>open-source</em>, and sipping chai while
-              brainstorming ideas.
+              Outside of coding, I’m a <em>professional cricketer</em> and
+              someone who finds joy in the gym, on the field, or anywhere
+              there’s a challenge. I thrive on collaboration, late-night
+              debugging, and of course, a good cup of coffee while brainstorming
+              the next big idea.
             </p>
           </div>
         </div>
