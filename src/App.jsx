@@ -10,6 +10,7 @@ import Achievements from "./components/Achievements";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
+import Connect from "./components/Connect";
 
 const App = () => {
   return (
@@ -24,8 +25,8 @@ const App = () => {
         <Projects />
         <Achievements />
         <Education />
-
         <Gallery />
+        <Connect/>
       </main>
       <Footer />
     </div>

@@ -8,8 +8,8 @@ const navLinks = [
   { name: "Skills", to: "skills" },
   { name: "Experience", to: "experience" },
   { name: "Projects", to: "projects" },
-  { name: "Education", to: "education" },
   { name: "Achievements", to: "achievements" },
+  { name: "Education", to: "education" },
   { name: "Gallery", to: "gallery" },
 ];
 
