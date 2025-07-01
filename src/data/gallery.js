@@ -1,30 +1,40 @@
-// /data/gallery.js
+import EcellBoard from "../assets/Ecell_Board_2024.jpg";
+import ManipalFamily from "../assets/Manipal_Family.jpg";
+import TechXEcell from "../assets/TechXEcell.jpg";
+import IT_B from "../assets/IT-B.jpg";
+import GE from "../assets/GE.JPG";
+import Shark from "../assets/Shark.jpg";
+import Childhood from "../assets/Childhood.JPG";
+
 const galleryItems = [
   {
-    src: "/images/gallery1.jpg",
-    alt: "Hackathon Day – Winning moment 🏆",
+    src: EcellBoard,
+    alt: "🚀 E-Cell Board 2024 – The Visionaries",
   },
   {
-    src: "/images/gallery2.jpg",
-    alt: "Project Demo at College Expo 💻",
+    src: ManipalFamily,
+    alt: "🏡 Manipal Family – Bonds Beyond Campus",
   },
   {
-    src: "/images/gallery3.jpg",
-    alt: "Tech Club Meetup – Speaker Session 🎤",
+    src: TechXEcell,
+    alt: "💻 E-Cell Tech Team – Builders Behind the Buzz",
   },
   {
-    src: "/images/gallery4.jpg",
-    alt: "Team Presentation – Smart India Hackathon 🧠",
+    src: IT_B,
+    alt: "🎓 IT-B Batch of 2025 – The Core Crew",
   },
   {
-    src: "/images/gallery5.jpg",
-    alt: "Leadership Summit – Panel Talk 🎙️",
+    src: GE,
+    alt: "🔥 GE Squad – Fighting Spirit On!",
   },
   {
-    src: "/images/gallery6.jpg",
-    alt: "Startup Booth @ Expo 🚀",
+    src: Childhood,
+    alt: "👶 Childhood Gang – Day Ones Forever",
   },
-  // Add more as needed
+  {
+    src: Shark,
+    alt: "🦈 MES 2024 Promo – Channeling Aman Gupta",
+  },
 ];
 
 export default galleryItems;
