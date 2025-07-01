@@ -1,10 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import projects from "../data/projects";
-import ProjectModal from "./ProjectModal";
 
 const Projects = () => {
-  const [selectedProject, setSelectedProject] = useState(null);
-
   return (
     <section
       id="projects"
@@ -13,36 +10,56 @@ const Projects = () => {
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-extrabold text-center mb-12">Projects</h2>
 
-        {/* Grid for projects */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Grid layout for projects */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
           {projects.map((project, index) => (
             <div
               key={index}
-              onClick={() => setSelectedProject(project)}
-              className="cursor-pointer border border-slate-700 hover:border-blue-500 bg-slate-800 rounded-xl overflow-hidden transition-shadow shadow-lg hover:scale-105"
+              className="bg-white/5 backdrop-blur-md border border-slate-700 hover:border-blue-500 transition rounded-xl overflow-hidden shadow-lg"
             >
+              {/* Project image */}
               <img
                 src={project.image}
                 alt={project.title}
-                className="h-48 w-full object-cover transition-all duration-300 hover:scale-105"
+                className="w-full h-48 object-cover"
               />
-              <div className="p-4">
-                <h3 className="text-xl font-semibold text-blue-300 mb-2">
+
+              {/* Project content */}
+              <div className="p-5 space-y-3">
+                <h3 className="text-xl font-semibold text-blue-300">
                   {project.title}
                 </h3>
-                <p className="text-sm text-slate-400 mt-2">
-                  {project.description.slice(0, 80)}...
+                <p className="text-sm text-slate-300 leading-relaxed">
+                  {project.description}
                 </p>
+
+                {/* Tech stack */}
+                <div className="flex flex-wrap gap-2 text-xs">
+                  {project.tech.map((tech, i) => (
+                    <span
+                      key={i}
+                      className="bg-slate-700 text-slate-300 px-3 py-1 rounded-full"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+
+                {/* Link */}
+                <div>
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 underline text-sm"
+                  >
+                    View Project →
+                  </a>
+                </div>
               </div>
             </div>
           ))}
         </div>
-
-        {/* Project Modal */}
-        <ProjectModal
-          project={selectedProject}
-          onClose={() => setSelectedProject(null)}
-        />
       </div>
     </section>
   );

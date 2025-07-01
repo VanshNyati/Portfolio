@@ -1,5 +1,6 @@
 const skills = {
   Programming: [
+    "C",
     "C++",
     "Python",
     "Java",

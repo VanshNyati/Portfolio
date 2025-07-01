@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FiPlus, FiX } from "react-icons/fi";
+import { FiPlus, FiX, FiBriefcase } from "react-icons/fi";
 import experienceData from "../data/experience";
 
 const Experience = () => {
@@ -67,13 +67,18 @@ const Experience = () => {
                   <div className="flex justify-between items-start gap-4">
                     <div className="flex-1">
                       <div className="flex items-center gap-3 mb-1">
-                        {exp.logo && (
-                          <img
-                            src={exp.logo}
-                            alt={`${exp.company} logo`}
-                            className="w-8 h-8 object-contain rounded-full border border-white/10"
-                          />
-                        )}
+                        <motion.div
+                          className="w-8 h-8 bg-blue-600 text-white flex items-center justify-center rounded-full"
+                          animate={{ y: [0, -2, 0] }}
+                          transition={{
+                            duration: 2,
+                            repeat: Infinity,
+                            repeatType: "loop",
+                          }}
+                        >
+                          <FiBriefcase size={16} />
+                        </motion.div>
+
                         <h3 className="text-lg md:text-xl font-semibold text-white">
                           {exp.title}
                         </h3>
@@ -110,7 +115,11 @@ const Experience = () => {
                         }}
                         className="overflow-hidden mt-4 text-slate-300 text-sm leading-relaxed"
                       >
-                        <p>{exp.description}</p>
+                        <ul className="list-disc list-inside space-y-1">
+                          {exp.description.split("\n").map((point, idx) => (
+                            <li key={idx}>{point.trim()}</li>
+                          ))}
+                        </ul>
                       </motion.div>
                     )}
                   </AnimatePresence>

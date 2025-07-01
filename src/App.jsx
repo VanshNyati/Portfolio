@@ -17,16 +17,17 @@ const App = () => {
       <Header />
 
       <main>
-        <Hero /> 
-        <About />  
+        <Hero />
+        <About />
         <Skills />
-        <Experience /> 
-        <Projects />  
-        <Education /> 
-        <Achievements />  
-        <Gallery />  
+        <Experience />
+        <Projects />
+        <Achievements />
+        <Education />
+
+        <Gallery />
       </main>
-      <Footer />  
+      <Footer />
     </div>
   );
 };
