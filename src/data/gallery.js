@@ -2,9 +2,9 @@ import EcellBoard from "../assets/Ecell_Board_2024.jpg";
 import ManipalFamily from "../assets/Manipal_Family.jpg";
 import TechXEcell from "../assets/TechXEcell.jpg";
 import IT_B from "../assets/IT-B.jpg";
-import GE from "../assets/GE.JPG";
+import GE from "../assets/GE.jpg";
 import Shark from "../assets/Shark.jpg";
-import Childhood from "../assets/Childhood.JPG";
+import Childhood from "../assets/Childhood.jpg";
 
 const galleryItems = [
   {
