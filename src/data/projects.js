@@ -3,9 +3,35 @@ import conferencing from "../assets/Video_Conferencing_App.jpg";
 import mes2024 from "../assets/MES_2024_Website.jpg"; 
 import livePolling from "../assets/Live_Polling_System.png"; 
 import blogImg from "../assets/social_blog.png";
-
+import convoflowImg from "../assets/convoflow.png";
+import yardstickImg from "../assets/yardstick.png";
+import appointmentImg from "../assets/appointment.png";
 
 const projects = [
+  {
+    title: "ConvoFlow Chatbot",
+    description:
+      "Full-stack chatbot platform powered by Nhost (backend), N8N (automation), and React + TypeScript + Tailwind (frontend). Built for dynamic conversational workflows.",
+    tech: ["ReactJS", "TypeScript", "Tailwind CSS", "Nhost", "N8N"],
+    link: "https://convo-flow-zeta.vercel.app/",
+    image: convoflowImg,
+  },
+  {
+    title: "Yardstick Finance Tracker",
+    description:
+      "Personal finance tracker to manage transactions, categorize spending, and visualize trends. Optimized for speed and minimal UI overhead.",
+    tech: ["Next.js", "Tailwind CSS"],
+    link: "https://yardstick-assignment-pi.vercel.app/",
+    image: yardstickImg,
+  },
+  {
+    title: "Clinic Appointment Booking App",
+    description:
+      "End-to-end clinic appointment system with separate dashboards for admin/clinic and patients. Includes secure login, scheduling, and management tools.",
+    tech: ["ReactJS", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    link: "https://appointment-booking-orcin.vercel.app/login",
+    image: appointmentImg,
+  },
   {
     title: "Startup Accelerator Portal",
     description:

@@ -27,6 +27,7 @@ const skills = {
     "PHP",
     "Concrete CMS",
     "REST APIs",
+    "System Design", // ✅ added here
   ],
 
   Tools: [
@@ -41,6 +42,8 @@ const skills = {
     "Docker",
     "AWS",
     "Notion",
+    "Kafka", // ✅ infra/tooling
+    "Redis", // ✅ caching layer
   ],
 
   Others: [

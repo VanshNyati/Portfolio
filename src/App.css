@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+::selection {
+  background: rgb(59 130 246 / 0.25);
+}
+
+/* fade-in utility used in About */
+.animate-fade-in {
+  animation: fade-in 600ms ease forwards;
+  opacity: 0;
+}
+.animate-fade-in.delay-200 { animation-delay: 200ms; }
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
